@@ -1,0 +1,73 @@
+<html>
+
+	<link rel="icon"  href="ic_launcher.png">
+
+	<style>
+
+
+		body { 
+			background-color: grey;
+		}
+		
+		.th2 {
+			color: black;
+			border: 1px solid #e9e9e9;
+			width:12cm;
+			height:12cm;
+		}
+		input[type=text],[type=password] {
+			width: 70%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			background-color:#e9e9e9;
+			border: 1px solid #e9e9e9;
+			border-radius: 4px;
+			box-sizing: border-box;
+		}
+	
+		input[type=submit]{
+			width: 70%;
+			padding: 12px 20px;
+			margin: 8px 0;
+			display: inline-block;
+			color: white;
+			border: 1px solid #e9e9e9;
+			border-radius: 4px;
+			background-color: #ff1919;
+			box-sizing: border-box;
+		}
+		.tablebg{
+			background:white;
+
+
+		}	
+	
+		
+		.fontclass{
+				font-family:IMPACT;color:white;background:grey;
+				font-size: .9cm;
+				}
+				
+			</style>
+			<body>
+				<div class="fontclass"><center>Disaster Management Panel</center></div>
+				<br></br>
+				<center><table cellspacing=1>
+					<tr class="tablebg">
+						<th class="th2"><big>Administrator Account</big>
+						<form action="login.php" method="POST">
+								<input style="background-color:#e9e9e9; color:black;" type="text" id="fname" name="head_name" placeholder="Administrator Name" required autocomplete="on">
+								<input style="background-color:#e9e9e9; color:black;" type="password" id="fname" name="pass" placeholder="Administrator Password" required autocomplete="on">
+								
+								<input type="submit" id="submit" name="submit" value="Sign In" style="cursor: hand;">
+
+						</form>
+
+						</th>
+
+					</tr>
+				</table></center>
+
+			</body>
+			</html>
