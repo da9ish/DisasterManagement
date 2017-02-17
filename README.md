@@ -1,5 +1,5 @@
 # DisasterManagement
-DisasterManagement is a Web+Android Application which tends to solve problems during and after disater.<br>
+DisasterManagement is a Web+Android Application which tends to solve problems during and after disaster.<br>
 #Authors 
 * <strong>Danish Shah</strong>
 * Maaz Khan
